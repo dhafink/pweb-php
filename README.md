@@ -57,67 +57,12 @@ Isi form dan klik Daftar. Data akan tersimpan di data_pendaftar.txt.
 🧩 Penjelasan File
 index.html — Halaman Formulir
 Menampilkan input data siswa baru, seperti nama, alamat, jenis kelamin, agama, sekolah asal, email, dan no telepon.
+![carbon (6)](https://github.com/user-attachments/assets/527ba7c9-a3fd-4423-a109-2ceb75687e0b)
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulir Pendaftaran Siswa Baru</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="background">
-    <ul class="bubbles">
-      <li></li><li></li><li></li><li></li><li></li>
-      <li></li><li></li><li></li><li></li><li></li>
-    </ul>
-  </div>
 
-  <div class="container">
-    <h1>Formulir Pendaftaran Siswa Baru</h1>
-    <p>Silakan lengkapi informasi berikut secara benar.</p>
-    <form action="proses_simpan.php" method="POST">
-      <label>Nama Lengkap</label>
-      <input type="text" name="nama" placeholder="Contoh: Siti Aminah" required>
 
-      <label>Alamat Rumah</label>
-      <textarea name="alamat" placeholder="Contoh: Jl. Kenanga No. 45, Surabaya" required></textarea>
+Style.css
+![carbon (5)](https://github.com/user-attachments/assets/bc6ca09e-6903-4baa-9dc7-06cf43df04fc)
 
-      <label>Jenis Kelamin</label>
-      <label><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</label>
-      <label><input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</label>
-
-      <label>Agama</label>
-      <select name="agama" required>
-        <option value="">-- Pilih Agama --</option>
-        <option>Islam</option>
-        <option>Kristen</option>
-        <option>Katolik</option>
-        <option>Hindu</option>
-        <option>Buddha</option>
-        <option>Konghucu</option>
-      </select>
-
-      <label>Asal Sekolah</label>
-      <input type="text" name="asal_sekolah" placeholder="Contoh: SMPN 2 Bandung" required>
-
-      <label>Email</label>
-      <input type="email" name="email" required>
-
-      <label>No. Telepon</label>
-      <input type="tel" name="no_telepon" required>
-
-      <button type="submit">Kirim Pendaftaran</button>
-    </form>
-  </div>
-</body>
-</html>
-
-...
-$file = fopen("data_pendaftar.txt", "a");
-fwrite($file, "Nama: $nama | Alamat: $alamat ...");
-📦 Catatan
-Format file .txt disusun dengan separator “|” agar rapi dan mudah dibaca.
 
 Tidak menggunakan database (akan digunakan di Tugas 9).
