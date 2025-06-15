@@ -4,7 +4,8 @@ Tugas 8 PWEB PHP
 
 Formulir Pendaftaran Siswa Baru
 LINK WEB LOCALHOST: http://localhost/Tugas8/index.html
-LINK REPO GITHUB: https://github.com/username/repo-nama
+
+LINK REPO GITHUB: [https://github.com/username/repo-nama](https://dhafink.github.io/pweb-php/)
 
 📄 Deskripsi
 Aplikasi web sederhana untuk pendaftaran siswa baru. Data yang diinput melalui form disimpan ke dalam file .txt menggunakan PHP. Proyek ini dibuat untuk keperluan pembelajaran dasar HTML, CSS, dan PHP.
