@@ -62,7 +62,13 @@ Menampilkan input data siswa baru, seperti nama, alamat, jenis kelamin, agama, s
 
 
 Style.css
+Mendesign agar lebih menarik tampilannya
 ![carbon (5)](https://github.com/user-attachments/assets/bc6ca09e-6903-4baa-9dc7-06cf43df04fc)
 
+proses_simpan.php
+Untuk menerima data yang dikirim dari form dan menyimpannya di file berbentuk .txt
+![carbon (7)](https://github.com/user-attachments/assets/441332ad-f733-429b-88d0-64a79426220a)
 
-Tidak menggunakan database (akan digunakan di Tugas 9).
+
+
+Tidak menggunakan database (karena akan digunakan di Tugas 9 yaitu MYSQL).
