@@ -32,7 +32,7 @@ Edit
 ├── simpan.php          # Proses penyimpanan data ke file .txt
 
 ├── data_pendaftar.txt  # File untuk menyimpan data hasil input form
-![image](https://github.com/user-attachments/assets/f66e294f-1553-4488-a8e4-30fb9b0558e6)
+
 
 
 ⚙️ Cara Menjalankan Proyek
