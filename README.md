@@ -24,10 +24,11 @@ bash
 Copy
 Edit
 /
-├── index.html             # Halaman utama form pendaftaran siswa
-├── style.css              # Styling halaman form
-├── simpan.php             # Proses penyimpanan data ke file txt
-├── data_pendaftar.txt     # File untuk menyimpan data hasil input
+├── index.html          # Halaman utama form pendaftaran siswa
+├── style.css           # Styling tampilan halaman form
+├── simpan.php          # Proses penyimpanan data ke file .txt
+├── data_pendaftar.txt  # File untuk menyimpan data hasil input form
+
 ⚙️ Cara Menjalankan Proyek
 Unduh & Install XAMPP (https://www.apachefriends.org/index.html)
 
